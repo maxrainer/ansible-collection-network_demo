@@ -1,3 +1,6 @@
 [submodule "roles/f5_loadbalancer"]
 	path = roles/f5_loadbalancer
 	url = https://maxrainer@github.com/maxrainer/ansible-role-f5_loadbalancer.git
+[submodule "roles/centos_app_server"]
+	path = roles/centos_app_server
+	url = https://maxrainer@github.com/maxrainer/ansible-role-centos_app_server.git
