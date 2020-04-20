@@ -1,0 +1,6 @@
+---
+
+- name: Run the centos role.
+  include_role:
+    name: maxrainer.network_demo.centos_app_server
+
