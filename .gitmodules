@@ -4,3 +4,6 @@
 [submodule "roles/centos_app_server"]
 	path = roles/centos_app_server
 	url = https://maxrainer@github.com/maxrainer/ansible-role-centos_app_server.git
+[submodule "roles/ios_router"]
+	path = roles/ios_router
+	url = https://maxrainer@github.com/maxrainer/ansible-role-ios_router.git
