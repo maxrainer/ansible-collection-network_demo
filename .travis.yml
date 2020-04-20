@@ -26,3 +26,10 @@ before_script:
 script:
   # Run tests.
   - ansible-test integration --docker geerlingguy/docker-$DISTRO-ansible:latest --python-interpreter $PYTHON_INTERPRETER
+
+deploy:
+  provider: script
+  script: ansible-playbook -i 'localhost,' scripts/deploy.yml -e "tag=$TRAVIS_TAG"
+  'on':
+    tags: true
+    condition: $DISTRO = centos7
